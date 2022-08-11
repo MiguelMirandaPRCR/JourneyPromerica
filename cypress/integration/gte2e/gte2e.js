@@ -19,7 +19,8 @@ Given('The user use validate data to get the token', (datatable)=> {
                      "channel": "",
                      "username": element.username,
                      "view": element.view,
-                     "application": element.application
+                     "application": element.application,
+                     "suscriptionID": element.suscriptionID
                     },
             }).then((response) =>{
                 expect(response).to.have.property('status', 200)

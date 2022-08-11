@@ -2,8 +2,8 @@ Feature: Guatemala Feature
 
 Scenario: Guatemla pre approved flow
 Given The user use validate data to get the token
-        | username | view | application |
-        | 1100116032 | Preaprovados-gt | BM |
+        | username | view | application | suscriptionID | 
+        | 1100116032 | Preaprovados-gt | BM | GT10100320001 |
 When The user will see the promerica application and use the continue button 
 And The user validate the title in loading page
 And The user validate titles and specifications of any product
