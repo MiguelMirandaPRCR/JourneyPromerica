@@ -16,8 +16,8 @@ class addressPage{
     validateElements(){
         this.elements.titleText().should('be.visible');
         this.elements.CardImage().should('be.visible');
-        this.elements.officeTitle().should('be.visible');
-        this.elements.officeOption().should('be.visible');
+        //this.elements.officeTitle().should('be.visible');
+        //this.elements.officeOption().should('be.visible');
         this.elements.houseTitle().should('be.visible');
         this.elements.houseOption().should('be.visible');
         this.elements.newAddressTitle().should('be.visible');

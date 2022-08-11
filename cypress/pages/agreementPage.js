@@ -18,7 +18,7 @@ class agreementPage{
         this.elements.limitApproved().should('be.visible');
         this.elements.rateLabel().should('be.visible');
         this.elements.benefitsText().should('be.visible');
-        this.elements.cashbackText().should('be.visible');
+       // this.elements.cashbackText().should('be.visible');
         this.elements.termsText().should('be.visible');
         this.elements.acceptTermsCheckbox().should('be.visible');
     }

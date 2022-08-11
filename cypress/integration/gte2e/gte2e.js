@@ -41,7 +41,6 @@ And('The user validate the title in loading page', ()=>{
 And('The user validate titles and specifications of any product', ()=>{
     productPage.validateElements();
     productPage.swipeProductContainer();
-    productPage.swipeProductContainer();
 })
 And('The user click the button to continue in Product Page', ()=>{
     productPage.clickContinueButton();
